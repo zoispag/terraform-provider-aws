@@ -52,7 +52,6 @@ rules:
       exclude:
         - "internal/service/auditmanager"
         - "internal/service/b*"
-        - "internal/service/cognitoidentity"
         - "internal/service/cognitoidp"
         - "internal/service/comprehend"
         - "internal/service/configservice"
