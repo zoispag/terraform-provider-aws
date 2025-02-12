@@ -5,7 +5,7 @@ val orgacctServices = mapOf(
         "CloudFormation",
         "TestAccCloudFormationStackSet_PermissionModel_serviceManaged|TestAccCloudFormationStackSetInstance_deploymentTargets"
     ),
-    "cloudtrail" to ServiceSpec("CloudTrail"),
+    "cloudtrail" to ServiceSpec("CloudTrail", parallelismOverride = 5),
     "config" to ServiceSpec("Config" /*"TestAccConfig_serial|TestAccConfigConfigurationAggregator_"*/),
     "detective" to ServiceSpec("Detective"),
     "fms" to ServiceSpec("FMS (Firewall Manager)", regionOverride = "us-east-1"),
