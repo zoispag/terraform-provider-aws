@@ -52,7 +52,6 @@ rules:
       exclude:
         - "internal/service/auditmanager"
         - "internal/service/b*"
-        - "internal/service/codestarconnections"
         - "internal/service/codestarnotifications"
         - "internal/service/cognitoidentity"
         - "internal/service/cognitoidp"
