@@ -52,7 +52,6 @@ rules:
       exclude:
         - "internal/service/auditmanager"
         - "internal/service/b*"
-        - "internal/service/cloudfront"
         - "internal/service/cloudfrontkeyvaluestore"
         - "internal/service/cloudhsmv2"
         - "internal/service/cloudsearch"
